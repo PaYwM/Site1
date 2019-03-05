@@ -1,0 +1,392 @@
+body {
+    font-family: 'Roboto Slab', cursive;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.register1 {
+    margin-left: 700px;
+    margin-top: -35px;
+}
+
+.register1 a {
+    color: crimson;
+}
+
+label {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    width: 100px;
+}
+
+.extr {
+    background: url('https://yese69.com/wp-content/uploads/data/2017/12/10/widescreen-abstract-dark-wallpaper-1920x1080-WTG200127845.jpg') 50% 50% /cover no-repeat;
+}
+
+.Vance {
+    background: url('https://img2.akspic.ru/image/9553-tekstura-setka-cherno_belaya_fotografiya-chernyj_i_belyj-chernyy-1920x1080.jpg')
+}
+
+#hs-banner {
+    padding-top: 100px;
+}
+
+
+.image {
+    width: 90px;
+    height: auto;
+}
+
+.thumb {
+    margin-top: -20px;
+
+    width: 150px;
+    height: 150px;
+    /* Размеры */
+    outline: 5px solid #000;
+    /* Чёрная рамка */
+    border-radius: 20px;
+}
+
+.vance {
+    margin-top: -20px;
+    margin-right: 120px;
+    width: 150px;
+    height: 150px;
+    /* Размеры */
+    outline: 5px solid #000;
+    /* Чёрная рамка */
+    border-radius: 20px;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+
+.description {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgba(148, 154, 155, 0.712) 36%, rgba(167, 149, 145, 0.712) 16%, rgba(233, 216, 216, 0.712) 36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+    font-size: 12px;
+    text-align: center, right;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+
+.description1 {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgba(218, 244, 248, 0.712) 36%, rgba(255, 255, 255, 0.712) 16%, rgba(255, 255, 255, 0.712) 36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+    font-size: 12px;
+    text-align: center, right;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+
+.secondDescription {
+    font-family: 'Rubik One', sans-serif;
+    color: crimson;
+    margin: 20px auto;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button1 {
+    float: right;
+    margin-left: 800px;
+    margin-top: -650px;
+    background-color: bisque;
+    margin-right: 40px;
+    width: 90px;
+    height: auto;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(50, 50, 54) 51%, rgb(182, 182, 182) 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.button1--vance {
+    float: none;
+    margin: 0;
+}
+
+.price {
+    margin-left: 123px;
+}
+
+
+.custom-modal {
+    position: fixed;
+    width: 100%;
+    max-width: 450px;
+    top: -100%;
+    left: 50%;
+    background: #fff;
+    border-radius: 7px;
+    transform: translate(-50%, -50%);
+    transition: .8s;
+    z-index: 200;
+}
+
+.custom-modal.active {
+    top: 50%;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.close-modal .line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 2px;
+    background: #000;
+}
+
+.close-modal .line.line--left {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.close-modal .line.line--right {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.custom-modal .custom-modal-body {
+    padding: 30px 50px;
+}
+
+.button-order {
+    background-color: bisque;
+    width: 90px;
+    height: auto;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(50, 50, 54) 51%, rgb(182, 182, 182) 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.custom-modal .custom-modal-body .order-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .8);
+    z-index: 199;
+    display: none;
+}
+
+
+
+.form-reg {
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.form-control {
+    max-width: 300px;
+}
+
+.form-group label {
+    margin-right: 15px;
+}
+
+.mail {
+    color: #fff;
+}
+
+.pass {
+    color: #fff;
+}
+
+.xanter {
+    background: url('https://wallpapermemory.com/uploads/681/dark-abstract-wallpaper-full-hd-1920x1080-322588.jpg') 50% 50% /cover no-repeat;
+    color: rgb(177, 134, 5);
+
+}
+
+.conc {
+    background: url('https://i.pinimg.com/originals/02/1a/a7/021aa72493f24390fc53bb457892f9c9.jpg') 50% 50% /cover no-repeat;
+    text-align: center;
+    margin-top: 200px;
+    color: crimson;
+}
+
+.off {
+    background: url('https://i.ytimg.com/vi/XbzAuRWDN_o/maxresdefault.jpg') 50% 50% /cover no-repeat;
+
+}
+
+.gradient {
+    font-size: 2em;
+    background: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    border-image-slice: 1;
+}
+
+.price2 {
+    color: crimson;
+}
+
+.how {
+    font-size: 2em;
+    background: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    border-image-slice: 1;
+}
+
+.bonus {
+    font-size: 2em;
+    background: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    border-image-slice: 1;
+
+}
+
+.part {
+    font-size: 2em;
+    background: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    border-image-slice: 1;
+
+}
+
+.contact1 {
+    font-size: 2em;
+    background: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em;
+    border: 3px solid transparent;
+    border-image: linear-gradient(135deg, rgb(97, 71, 211) 40%, rgb(177, 134, 5) 60%);
+    border-image-slice: 1;
+}
+
+.pty {
+    background: url(https://i.pinimg.com/originals/3b/0f/4b/3b0f4be980fbcded880d245500cbe1f4.jpg)50% 50% /cover no-repeat;
+
+}
+
+.log {
+    color: crimson;
+
+}
+
+.pass {
+    color: crimson;
+}
+
+.form-reg .form-control {
+    background: transparent;
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, rgb(186, 236, 2) 40%, rgb(0, 204, 255) 60%);
+    border-image-slice: 1;
+}
+
+.naf li a {
+    color: crimson;
+}
+
+.form {
+    margin-top: -80px;
+}
+
+.prices {
+    color: crimson;
+}
+
+.tall {
+    color: crimson;
+    margin-left: 120px;
+}
+
+.button2 {
+    float: right;
+    margin-left: 800px;
+    margin-top: -650px;
+    background-color: bisque;
+    margin-right: 40px;
+    width: 90px;
+    height: auto;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(50, 50, 54) 51%, rgb(182, 182, 182) 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="off">
+
+
+    <div>
+        <div class="d-flex align-items-end">
+            <p class="clothes">
+                    <img class="off2" src="offback.png "
+                    alt="Фотография(Off_white)" width="300" height="300">
+                <img class="off1" src="offront.png"
+                    alt="Off-white2" width="250" ,height="250">
+                
+
+            </p>
+            <h3 class="price2">
+                Цена: 1000грн
+            </h3>
+        </div>
+        <p class="description">
+            Описание: Теплая и удобная черная худи от Off-White. В наличии капюшон и объемный карман на животе.<br>
+            Принадлежность к знаменитому бренду выдают не только оригинальные бирки, но и знаменитая «зебра»:
+            диагональные белые полосы — с обеих сторон на рукавах и занимающие всю площадь спины.<br>
+            Высочайшее качество.<br>
+            Приятный к телу материал.<br>
+            Состав: 85% cotton, 10% polyester, 5% elastane. <br>
+            Реглан изготовлен из высококачественных материалов, имеет резинку на горловине, манжетах.<br>
+            Устойчивая горловина, которая не позволяет изделию растягиваться и терять форму.<br>
+            Материал не вызывает аллергических реакций. <br>
+
+            Правила ухода:<br>
+            Стирать изделие необходимо при температуре не выше 40С.<br>
+            Гладить изделие рекомендуется с обратной стороны. Перед стиркой желательно вывернуть изделие наизнанку. <br>
+        </p>
+        <div class="secondDescription">
+                <p>
+                        Размеры в наличии: S, M, L, XL, 2XL.<br>
+                        С - примерно рост 160-175, вес 50-65 кг<br>
+                        М - примерно рост 170-180, вес 65-80 кг<br>
+                        Л - примерно рост 180-190, вес 80-90 кг<br>
+                        ХЛ - примерно рост 190-200, вес 90-100 кг<br>
+                        ХХЛ - примерно рост 200+, вес 100+ кг<br>
+                    </p>
+
+        </div>
+       
+
+        <button id="order-button" class="button1">
+            Купить
+        </button>
+    </div>
+
+    <div class="custom-modal custom-modal--order">
+        <div class="close-modal">
+            <div class="line line--left"></div>
+            <div class="line line--right"></div>
+        </div>
+        
+        <div class="custom-modal-body">
+            <div class="order-list">
+                <h3 class="order-list__price mb-0">
+                    Цена: 1000грн
+                </h3>
+                <button class="button-order">
+                    Купить
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-mask"></div>
+
+
+
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+
+</html>

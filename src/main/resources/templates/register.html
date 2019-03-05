@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="pty">
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-sm-6 mx-auto">
+                <div class="block">
+                    <form id="form" class="form-reg">
+                        <div class="form-group">
+                            <label for="name">Имя:</label><input class="form-control" id="name" type="name" class="menu"
+                                placeholder="Имя" required><span></span><br>
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Фамилия:</label><input class="form-control" id="surname" type="name"
+                                class="menu" placeholder="Фамилия" required><span></span><br>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mail">Эл. почта:</label><input class="form-control" id="mail" type="email"
+                                class="menu" placeholder="email" required><span></span><br>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Пароль:</label><input class="form-control" id="password" type="password"
+                                class="menu" pattern="[0-9]{7,}" required placeholder="Введите пароль"><span></span><br>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Повторите:</label><input class="form-control" ud="password" type="password"
+                                class="menu" placeholder="Повторите пароль" required pattern="[0-9]{7,}"><span></span><br>
+                        </div>
+                    </form>
+
+                    <div class="button">
+                        <!-- <label class="qwe" for="button"><input class="form-control" id="button" form="form" type="submit"></label> -->
+                        <button class="btn btn-primary ml-4 mt-3">
+                            Зарегистрироваться
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

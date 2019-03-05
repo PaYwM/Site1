@@ -1,0 +1,47 @@
+  spring:
+    thymeleaf:
+      cache: false
+      check-template: true
+      check-template-location: true
+      enabled: true
+      encoding: UTF-8
+      mode: HTML
+      prefix: classpath:/templates/
+      suffix: .html
+
+    # Подключение к БД
+    datasource:
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: 1017
+
+      # HikariCP настройки
+      hikari:
+        connection-timeout: 60000
+        maximum-pool-size: 5
+
+    jpa:
+      # Стратегия инициализации БД
+      # update - обновление колонок таблиц при загрузке (но не удаление)
+      # create-drop - пересоздание таблиц призапуске приложения
+      hibernate.ddl-auto: update
+      # Показывать вополняемые sql запросы в логе
+      show-sql: true
+      # Игнорирование LOB ошибки при старте
+      properties.hibernate.temp.use_jdbc_metadata_defaults: false
+      # Выбор диалекта СУБД
+      database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+
+      # Доп. настройки логгирования
+      logging:
+        pattern.console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+        level:
+          root: WARN
+          org.hibernate:
+            SQL: debug
+            type.descriptor.sql: trace
+          org.springframework.web: DEBUG
+    mvc:
+      view.prefix: /WEB-INF/jsp/
+      view.suffix: .jsp
+    messages.basename: validation
